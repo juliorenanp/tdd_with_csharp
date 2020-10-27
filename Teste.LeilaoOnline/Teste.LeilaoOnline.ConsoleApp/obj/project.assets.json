@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Teste.LeilaoOnline.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Teste.LeilaoOnline.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Teste.LeilaoOnline.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Teste.LeilaoOnline.Core/1.0.0": {
+      "type": "project",
+      "path": "../Teste.LeilaoOnline.Core/Teste.LeilaoOnline.Core.csproj",
+      "msbuildProject": "../Teste.LeilaoOnline.Core/Teste.LeilaoOnline.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Teste.LeilaoOnline.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ghost\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\projetos\\tdd_with_csharp\\Teste.LeilaoOnline\\Teste.LeilaoOnline.ConsoleApp\\Teste.LeilaoOnline.ConsoleApp.csproj",
+      "projectName": "Teste.LeilaoOnline.ConsoleApp",
+      "projectPath": "C:\\projetos\\tdd_with_csharp\\Teste.LeilaoOnline\\Teste.LeilaoOnline.ConsoleApp\\Teste.LeilaoOnline.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\tdd_with_csharp\\Teste.LeilaoOnline\\Teste.LeilaoOnline.ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\projetos\\tdd_with_csharp\\Teste.LeilaoOnline\\Teste.LeilaoOnline.Core\\Teste.LeilaoOnline.Core.csproj": {
+              "projectPath": "C:\\projetos\\tdd_with_csharp\\Teste.LeilaoOnline\\Teste.LeilaoOnline.Core\\Teste.LeilaoOnline.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

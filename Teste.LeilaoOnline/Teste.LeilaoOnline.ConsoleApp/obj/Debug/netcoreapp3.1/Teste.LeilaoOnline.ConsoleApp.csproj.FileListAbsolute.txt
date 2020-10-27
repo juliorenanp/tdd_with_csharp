@@ -1,0 +1,16 @@
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.exe
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.deps.json
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.runtimeconfig.json
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.runtimeconfig.dev.json
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.dll
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.pdb
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.Core.dll
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.Core.pdb
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.csprojAssemblyReference.cache
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.AssemblyInfoInputs.cache
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.AssemblyInfo.cs
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.csproj.CopyComplete
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.dll
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.pdb
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.ConsoleApp.genruntimeconfig.cache
