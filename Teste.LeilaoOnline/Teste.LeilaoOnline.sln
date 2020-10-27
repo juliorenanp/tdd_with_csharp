@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.LeilaoOnline.Core", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.LeilaoOnline.ConsoleApp", "Teste.LeilaoOnline.ConsoleApp\Teste.LeilaoOnline.ConsoleApp.csproj", "{F1EB5FD2-EDB2-4424-8925-190140E46B0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.LeilaoOnline.Testes", "Teste.LeilaoOnline.Testes\Teste.LeilaoOnline.Testes.csproj", "{DA6A72B4-CA08-4DCE-BFF0-6CFBB4222269}"
+	ProjectSection(ProjectDependencies) = postProject
+		{763A3325-505E-438C-8436-CD7F335D5001} = {763A3325-505E-438C-8436-CD7F335D5001}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +30,10 @@ Global
 		{F1EB5FD2-EDB2-4424-8925-190140E46B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1EB5FD2-EDB2-4424-8925-190140E46B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1EB5FD2-EDB2-4424-8925-190140E46B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6A72B4-CA08-4DCE-BFF0-6CFBB4222269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6A72B4-CA08-4DCE-BFF0-6CFBB4222269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6A72B4-CA08-4DCE-BFF0-6CFBB4222269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6A72B4-CA08-4DCE-BFF0-6CFBB4222269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +41,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{763A3325-505E-438C-8436-CD7F335D5001} = {C80543F3-648E-4D63-8340-D1B47D3131C8}
 		{F1EB5FD2-EDB2-4424-8925-190140E46B0A} = {060B2CDE-6D52-42CE-A815-70B702D7E703}
+		{DA6A72B4-CA08-4DCE-BFF0-6CFBB4222269} = {060B2CDE-6D52-42CE-A815-70B702D7E703}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F047DFFC-5A65-4C77-AB55-BBAE424F4A7D}
