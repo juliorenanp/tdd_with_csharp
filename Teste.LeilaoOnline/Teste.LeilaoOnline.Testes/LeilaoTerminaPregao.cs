@@ -13,8 +13,8 @@ namespace Teste.LeilaoOnline.Testes
         public void RetonaMaiorValorDadoLeilaoComPeloMenosUmLance(double valorEsperado, double[] ofertas)
         {
             // A - Arranje - cenário
-            // Leilão com vários lances sem ordem de valor
-            var leilao = new Leilao("Van Gogh");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Van Gogh", modalidade);
             var pessoa1 = new Interessada("Zaraki", leilao);
             var pessoa2 = new Interessada("Kurosaki", leilao);
 
@@ -48,7 +48,8 @@ namespace Teste.LeilaoOnline.Testes
         {
             // Arranje - Cenário
             // Dado leilão apenas com 1 lance
-            var leilao = new Leilao("Van Gogh");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Van Gogh", modalidade);
             leilao.IniciaPregao();
 
             // Act - método sob teste
@@ -67,7 +68,8 @@ namespace Teste.LeilaoOnline.Testes
         public void LancaInvalidOperationExceptionDadoPregaoNaoIniciado()
         {
             // Arranje - Cenário
-            var leilao = new Leilao("Bleach");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Bleach", modalidade);
 
             // Forma Deselegante
             //try
@@ -96,8 +98,10 @@ namespace Teste.LeilaoOnline.Testes
         public void RetornaValorSuperiorMaisProximoDadoLeilaoNessaModalidade(double valorDestino, double valorEsperado, double[] ofertas)
         {
             // Arranje - Cenário
-            // Dado leilão apenas com 1 lance
-            var leilao = new Leilao("Bleach", valorDestino);
+            IModalidadeAvaliacao modalidade = new OfertaSuperiorMaisProxima(valorDestino);
+
+
+            var leilao = new Leilao("Bleach", modalidade);
             var pessoa1 = new Interessada("Zaraki", leilao);
             var pessoa2 = new Interessada("Kurosaki", leilao);
 

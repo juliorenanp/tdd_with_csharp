@@ -12,6 +12,7 @@ namespace Teste.LeilaoOnline.Core
 
     public class Leilao
     {
+        private IModalidadeAvaliacao _avaliador;
         private Interessada _ultimoCliente;
         private IList<Lance> _lances;
         public IEnumerable<Lance> Lances => _lances;
@@ -19,14 +20,13 @@ namespace Teste.LeilaoOnline.Core
         public Lance Ganhador { get; private set; }
         public EstadoLeilao Estado { get; private set; }
 
-        public double ValorDestino { get; }
 
-        public Leilao(string peca, double valorDestino = 0)
+        public Leilao(string peca, IModalidadeAvaliacao avaliador)
         {
             Peca = peca;
             _lances = new List<Lance>();
             Estado = EstadoLeilao.LeilaoAntesPregao;
-            ValorDestino = valorDestino;
+            _avaliador = avaliador;
         }
 
         public void RecebeLance(Interessada cliente, double valor)
@@ -58,21 +58,7 @@ namespace Teste.LeilaoOnline.Core
                 throw new System.InvalidOperationException("Não é possível terminar o pregão sem ele ter começado. Use o método IniciaPregao() para corrigir");
             }
 
-            if (ValorDestino > 0)
-            {
-                // Modalidade oferta superior mais proxima
-                Ganhador = Lances
-                   .DefaultIfEmpty(new Lance(null, 0))
-                   .Where(l => l.Valor > ValorDestino)
-                   .OrderBy(l => l.Valor)
-                   .FirstOrDefault();
-            }
-            else
-            {
-                // Modalidade maior valor
-                Ganhador = Lances.OrderBy(l => l.Valor).DefaultIfEmpty(new Lance(null, 0)).LastOrDefault();
-            }
-
+            Ganhador = _avaliador.Avalia(this);
 
             Estado = EstadoLeilao.LeilaoFinalizado;
         }

@@ -9,7 +9,8 @@ namespace Teste.LeilaoOnline.ConsoleApp
         private static void LeilaoComVariosLances()
         {
             // A - Arranje - cenário
-            var leilao = new Leilao("Bleach");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Bleach", modalidade);
             var pessoa = new Interessada("Zaraki", leilao);
             var pessoa2 = new Interessada("Ichigo", leilao);
 
@@ -32,7 +33,8 @@ namespace Teste.LeilaoOnline.ConsoleApp
 
         private static void LeilaoComApenasUmLance()
         {
-            var leilao = new Leilao("Van Gogh");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Van Gogh", modalidade);
             var pessoa = new Interessada("Zaraki", leilao);
 
             leilao.RecebeLance(pessoa, 800);
