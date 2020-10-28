@@ -12,6 +12,7 @@ namespace Teste.LeilaoOnline.Core
 
     public class Leilao
     {
+        private Interessada _ultimoCliente;
         private IList<Lance> _lances;
         public IEnumerable<Lance> Lances => _lances;
         public string Peca { get; }
@@ -30,9 +31,17 @@ namespace Teste.LeilaoOnline.Core
         {
             if(Estado == EstadoLeilao.LeilaoEmAndamento)
             {
-                _lances.Add(new Lance(cliente, valor));
+                if(NovoLanceAceito(cliente, valor))
+                {
+                    _lances.Add(new Lance(cliente, valor));
+                    _ultimoCliente = cliente;
+                }
             }
-            
+        }
+
+        private bool NovoLanceAceito(Interessada cliente, double valor)
+        {
+            return (Estado == EstadoLeilao.LeilaoEmAndamento) && (cliente != _ultimoCliente);
         }
 
         public void IniciaPregao()

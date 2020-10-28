@@ -15,12 +15,21 @@ namespace Teste.LeilaoOnline.Testes
             // A - Arranje - cenário
             // Leilão com vários lances sem ordem de valor
             var leilao = new Leilao("Van Gogh");
-            var pessoa = new Interessada("Zaraki", leilao);
+            var pessoa1 = new Interessada("Zaraki", leilao);
+            var pessoa2 = new Interessada("Kurosaki", leilao);
 
             leilao.IniciaPregao();
-            foreach (var valor in ofertas)
+            for (int i = 0; i < ofertas.Length; i++)
             {
-                leilao.RecebeLance(pessoa, valor);
+                var valor = ofertas[i];
+                if ((i % 2) == 0)
+                {
+                    leilao.RecebeLance(pessoa1, valor);
+                }
+                else
+                {
+                    leilao.RecebeLance(pessoa2, valor);
+                }
             }
 
             // Act - método sob teste
