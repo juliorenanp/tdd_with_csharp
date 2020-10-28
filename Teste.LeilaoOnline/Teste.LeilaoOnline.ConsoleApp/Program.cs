@@ -9,7 +9,7 @@ namespace Teste.LeilaoOnline.ConsoleApp
         private static void LeilaoComVariosLances()
         {
             // A - Arranje - cenário
-            var leilao = new Leilao("Van Gogh");
+            var leilao = new Leilao("Bleach");
             var pessoa = new Interessada("Zaraki", leilao);
             var pessoa2 = new Interessada("Ichigo", leilao);
 

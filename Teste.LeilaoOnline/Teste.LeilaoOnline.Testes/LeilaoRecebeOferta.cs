@@ -11,7 +11,7 @@ namespace Teste.LeilaoOnline.Testes
         public void NaoAceitaProximoLanceDadoOMesmoCliente()
         {
             // Arranje - Cenário
-            var leilao = new Leilao("Van Gogh");
+            var leilao = new Leilao("Bleach");
             var pessoa1 = new Interessada("Zaraki", leilao);
             leilao.IniciaPregao();
             leilao.RecebeLance(pessoa1, 500);
@@ -33,7 +33,7 @@ namespace Teste.LeilaoOnline.Testes
         {
             // Arranje - Cenário
             // Dado leilão apenas com 1 lance
-            var leilao = new Leilao("Van Gogh");
+            var leilao = new Leilao("Bleach");
             var pessoa1 = new Interessada("Zaraki", leilao);
             var pessoa2 = new Interessada("Kurosaki", leilao);
             

@@ -51,6 +51,11 @@ namespace Teste.LeilaoOnline.Core
 
         public void TerminaPregao()
         {
+            if(Estado != EstadoLeilao.LeilaoEmAndamento)
+            {
+                throw new System.InvalidOperationException();
+            }
+            
             Ganhador = Lances.OrderBy(l => l.Valor).DefaultIfEmpty(new Lance(null,0)).LastOrDefault();
             Estado = EstadoLeilao.LeilaoFinalizado;
         }

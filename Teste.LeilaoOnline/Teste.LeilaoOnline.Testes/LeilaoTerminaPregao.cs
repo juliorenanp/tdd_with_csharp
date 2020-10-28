@@ -49,6 +49,7 @@ namespace Teste.LeilaoOnline.Testes
             // Arranje - Cenário
             // Dado leilão apenas com 1 lance
             var leilao = new Leilao("Van Gogh");
+            leilao.IniciaPregao();
 
             // Act - método sob teste
             // Quando o leilão acabar
@@ -60,6 +61,31 @@ namespace Teste.LeilaoOnline.Testes
             var valorObtido = leilao.Ganhador.Valor;
 
             Assert.Equal(valorEsperado, valorObtido);
+        }
+
+        [Fact]
+        public void LancaInvalidOperationExceptionDadoPregaoNaoIniciado()
+        {
+            // Arranje - Cenário
+            var leilao = new Leilao("Bleach");
+
+            // Forma Deselegante
+            //try
+            //{
+            //    // Act - método sob teste
+            //    leilao.TerminaPregao();
+
+            //    //Se a linha acima der certo, a próxima falhará;
+            //    Assert.True(false);
+            //}
+            //catch (System.Exception e)
+            //{
+            //    //Assert 
+            //    Assert.IsType<System.InvalidOperationException>(e);
+            //}
+
+            // Forma Elegante
+            Assert.Throws<System.InvalidOperationException>(() => leilao.TerminaPregao());
         }
     }
 }
