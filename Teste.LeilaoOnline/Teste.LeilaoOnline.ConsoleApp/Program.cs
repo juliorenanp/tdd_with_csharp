@@ -45,7 +45,7 @@ namespace Teste.LeilaoOnline.ConsoleApp
             var valorObtido = leilao.Ganhador.Valor;
 
             Verifica(valorEsperado, valorObtido);
-        
+
         }
 
         private static void Verifica(double esperado, double obtido)

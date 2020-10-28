@@ -90,5 +90,34 @@ namespace Teste.LeilaoOnline.Testes
             var msgEsperada = "Não é possível terminar o pregão sem ele ter começado. Use o método IniciaPregao() para corrigir";
             Assert.Equal(msgEsperada, excecaoObtida.Message);
         }
+
+        [Theory]
+        [InlineData(1600 ,1650, new double[] { 800, 1400, 1650 , 3000})]
+        public void RetornaValorSuperiorMaisProximoDadoLeilaoNessaModalidade(double valorDestino, double valorEsperado, double[] ofertas)
+        {
+            // Arranje - Cenário
+            // Dado leilão apenas com 1 lance
+            var leilao = new Leilao("Bleach", valorDestino);
+            var pessoa1 = new Interessada("Zaraki", leilao);
+            var pessoa2 = new Interessada("Kurosaki", leilao);
+
+            leilao.IniciaPregao();
+            for (int i = 0; i < ofertas.Length; i++)
+            {
+                var valor = ofertas[i];
+                if ((i % 2) == 0)
+                {
+                    leilao.RecebeLance(pessoa1, valor);
+                }
+                else
+                {
+                    leilao.RecebeLance(pessoa2, valor);
+                }
+            }
+            // Act - método sob teste
+            leilao.TerminaPregao();
+
+            Assert.Equal(valorEsperado,leilao.Ganhador.Valor);
+        }
     }
 }

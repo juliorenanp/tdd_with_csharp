@@ -6,3 +6,4 @@ C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Core\obj\Debug
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Teste.LeilaoOnline.Core.csproj.CoreCompileInputs.cache
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Teste.LeilaoOnline.Core.dll
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Teste.LeilaoOnline.Core.pdb
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Teste.LeilaoOnline.Core.csprojAssemblyReference.cache
