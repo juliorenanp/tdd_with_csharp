@@ -55,9 +55,6 @@ https://en.wikipedia.org/wiki/Equivalence_partitioning
 Análise de Fronteira - outra técnica:
 https://en.wikipedia.org/wiki/Boundary-value_analysis
 
-Definição de Product Owner
-https://www.scrum.org/resources/what-is-a-product-owner
-
 Diferença entre [Fact] e [Theory]
 https://xunit.github.io/docs/getting-started/netfx/visual-studio#write-first-theory
 
