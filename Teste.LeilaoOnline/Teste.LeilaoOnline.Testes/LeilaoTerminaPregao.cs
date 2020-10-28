@@ -85,7 +85,10 @@ namespace Teste.LeilaoOnline.Testes
             //}
 
             // Forma Elegante
-            Assert.Throws<System.InvalidOperationException>(() => leilao.TerminaPregao());
+            var excecaoObtida = Assert.Throws<System.InvalidOperationException>(() => leilao.TerminaPregao());
+
+            var msgEsperada = "Não é possível terminar o pregão sem ele ter começado. Use o método IniciaPregao() para corrigir";
+            Assert.Equal(msgEsperada, excecaoObtida.Message);
         }
     }
 }

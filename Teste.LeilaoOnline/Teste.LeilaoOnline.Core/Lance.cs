@@ -1,4 +1,6 @@
-﻿namespace Teste.LeilaoOnline.Core
+﻿using System;
+
+namespace Teste.LeilaoOnline.Core
 {
     public class Lance
     {
@@ -7,6 +9,11 @@
 
         public Lance(Interessada cliente, double valor)
         {
+            if(valor < 0)
+            {
+                throw new ArgumentException("Valor do lance deve ser maior ou igual a 0");
+            }
+
             Cliente = cliente;
             Valor = valor;
         }

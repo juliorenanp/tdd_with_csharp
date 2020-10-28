@@ -53,7 +53,7 @@ namespace Teste.LeilaoOnline.Core
         {
             if(Estado != EstadoLeilao.LeilaoEmAndamento)
             {
-                throw new System.InvalidOperationException();
+                throw new System.InvalidOperationException("Não é possível terminar o pregão sem ele ter começado. Use o método IniciaPregao() para corrigir");
             }
             
             Ganhador = Lances.OrderBy(l => l.Valor).DefaultIfEmpty(new Lance(null,0)).LastOrDefault();
