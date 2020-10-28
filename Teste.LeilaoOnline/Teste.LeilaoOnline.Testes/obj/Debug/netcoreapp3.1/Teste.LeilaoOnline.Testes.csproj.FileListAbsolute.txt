@@ -1,3 +1,7 @@
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.csprojAssemblyReference.cache
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.AssemblyInfoInputs.cache
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.AssemblyInfo.cs
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.csproj.CoreCompileInputs.cache
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
@@ -86,13 +90,9 @@ C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Deb
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.csprojAssemblyReference.cache
-C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.AssemblyInfoInputs.cache
-C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.AssemblyInfo.cs
-C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.csproj.CoreCompileInputs.cache
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.Core.dll
+C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.Core.pdb
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.csproj.CopyComplete
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.dll
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.pdb
 C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\obj\Debug\netcoreapp3.1\Teste.LeilaoOnline.Testes.genruntimeconfig.cache
-C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.Core.dll
-C:\projetos\tdd_with_csharp\Teste.LeilaoOnline\Teste.LeilaoOnline.Testes\bin\Debug\netcoreapp3.1\Teste.LeilaoOnline.Core.pdb

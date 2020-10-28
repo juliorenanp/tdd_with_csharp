@@ -1,5 +1,6 @@
-﻿using Alura.LeilaoOnline.Core;
+﻿
 using System;
+using Teste.LeilaoOnline.Core;
 
 namespace Teste.LeilaoOnline.ConsoleApp
 {

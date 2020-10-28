@@ -1,27 +1,23 @@
-﻿using Alura.LeilaoOnline.Core;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Teste.LeilaoOnline.Core;
 using Xunit;
 
 namespace Teste.LeilaoOnline.Testes
 {
-   public class LeilaoTestes
+    public class LeilaoTerminaPregao
     {
 
         [Theory]
         [InlineData(1100, new double[] { 800, 900, 1000, 1100 })]
         [InlineData(1000, new double[] { 800, 900, 1000, 990 })]
         [InlineData(800,new double[] { 800 })]
-        public void LeilaoComVariosLances(double valorEsperado, double[] ofertas)
+        public void RetonaMaiorValorDadoLeilaoComPeloMenosUmLance(double valorEsperado, double[] ofertas)
         {
             // A - Arranje - cenário
             // Leilão com vários lances sem ordem de valor
             var leilao = new Leilao("Van Gogh");
             var pessoa = new Interessada("Zaraki", leilao);
-            var pessoa2 = new Interessada("Ichigo", leilao);
 
-
+            leilao.IniciaPregao();
             foreach (var valor in ofertas)
             {
                 leilao.RecebeLance(pessoa, valor);
@@ -39,7 +35,7 @@ namespace Teste.LeilaoOnline.Testes
         }
 
         [Fact]
-        public void LeilaoSemLances()
+        public void RetonaZeroDadoLeilaoSemLances()
         {
             // Arranje - Cenário
             // Dado leilão apenas com 1 lance

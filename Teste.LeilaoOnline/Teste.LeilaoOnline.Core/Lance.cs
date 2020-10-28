@@ -1,4 +1,4 @@
-﻿namespace Alura.LeilaoOnline.Core
+﻿namespace Teste.LeilaoOnline.Core
 {
     public class Lance
     {
